@@ -78,4 +78,6 @@ title('Overlay of Fixed and Registered Color Images');
 blendedImage = imfuse(fixedImage, registeredImage, 'blend')
 montage({fixedImage,registeredImage,blendedImage},'Size',[1 3])
 
+![image](https://github.com/user-attachments/assets/5490a608-c35f-48c6-b3c3-f2256a9d8de6)
+
 
