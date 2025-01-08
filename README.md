@@ -12,7 +12,6 @@ For cases where automated methods fail to produce satisfactory results, manual a
     The repository is for technologies has no ready to use software to align H&E image to spatial transcripts such as merscope, trekker slide tag. 
     Experiment with the automated techniques available in the Registration Estimator toolbox.
     If none of the automated methods yield acceptable results, use the provided scripts for precise manual alignment.
-![Alt text](montage_output.png)
 
     
 % load the fixed (reference) image and moving image
@@ -78,6 +77,9 @@ title('Overlay of Fixed and Registered Color Images');
 
 blendedImage = imfuse(fixedImage, registeredImage, 'blend')
 montage({fixedImage,registeredImage,blendedImage},'Size',[1 3])
+
+```
+![Alt text](montage_output.png)
 
 
 
