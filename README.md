@@ -12,10 +12,12 @@ For cases where automated methods fail to produce satisfactory results, manual a
     The repository is for technologies has no ready to use software to align H&E image to spatial transcripts such as merscope, trekker slide tag. 
     Experiment with the automated techniques available in the Registration Estimator toolbox.
     If none of the automated methods yield acceptable results, use the provided scripts for precise manual alignment.
+
+    
 % load the fixed (reference) image and moving image
 % image can be resized if size has big differences 
-fixedImage=imread('HE_resize.png')
-movingImage=imread('RNA_map.png')
+    fixedImage=imread('HE_resize.png')
+    movingImage=imread('RNA_map.png')
 
 imshow(fixedImage)
 imshow(movingImage)
