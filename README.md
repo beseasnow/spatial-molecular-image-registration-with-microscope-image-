@@ -14,8 +14,8 @@ For cases where automated methods fail to produce satisfactory results, manual a
     If none of the automated methods yield acceptable results, use the provided scripts for precise manual alignment.
 
     
-**load the fixed (reference) image and moving image**
-**image can be resized if size has big differences**
+% load the fixed (reference) image and moving image
+% image can be resized if size has big differences
 
 ```r
 fixedImage=imread('HE_resize.png')
