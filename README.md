@@ -1,6 +1,6 @@
-#H&E Image and spatial transcripts Registration
+# Microscope images such as H&E images register to spatial transcripts or DNA images
 
-A MATLAB-based tool for manually registering H&E images to spatial transcriptomic data.
+A MATLAB-based tool for manually registering microscope images to spatial molecular data.
 
 Overview
 
