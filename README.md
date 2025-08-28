@@ -17,7 +17,7 @@ For cases where automated methods fail to produce satisfactory results, manual a
 % load the fixed (reference) image and moving image
 % image can be resized if size has big differences
 
-```r
+```MATLAB
 fixedImage=imread('HE_resize.png')
 movingImage=imread('RNA_map.png')
 
