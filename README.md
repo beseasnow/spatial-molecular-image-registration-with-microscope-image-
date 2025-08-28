@@ -13,7 +13,7 @@ For cases where automated methods fail to produce satisfactory results, manual a
     Experiment with the automated techniques available in the Registration Estimator toolbox.
     If none of the automated methods yield acceptable results, use the provided scripts for precise manual alignment.
     
-```MATLAB
+```matlab
     
 % load the fixed (reference) image and moving image
 % image can be resized if size has big differences
